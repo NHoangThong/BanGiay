@@ -1,0 +1,223 @@
+﻿@model Web_ban_giay.NGUOIDUNG
+@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="~/assetsDN_DK/css/style.css">
+    <link rel="stylesheet" href="~/assetsDN_DK/css/base.css">
+    <link rel="stylesheet" href="~/assetsDN_DK/font/fontawesome-free-6.4.0-web/css/all.css">
+
+</head>
+<body>
+    <id class="main">
+        <div class="container">
+
+
+            <id class="header">
+                <img src="~/assetsDN_DK/img/Vector.png" alt="" class="header_logo">
+                <div class="header_language">
+                    <p class="header_language-text">English (UK)</p>
+                    <i class="fa-sharp fa-solid fa-caret-down header_language-menu"></i>
+                    <div class="language_choose">
+                        <a href="" class="language-text">Việt Nam</a>
+                        <a href="" class="language-text">China</a>
+                        <a href="" class="language-text">Thailand</a>
+
+                    </div>
+                </div>
+
+            </id>
+            <id class="content">
+                <div class="content_main">
+                    <div class="content_main-wrapper">
+
+                        <h1 class="content_title">Login Account</h1>
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+                            <a href="" class="sign-in-wrapper">
+                                <div id="google-button">
+                                </div>
+                            </a>
+                            <p class="content-or">- OR -</p>
+                            <ul class="content_info">
+
+                                <li class="info_list">
+                                    @Html.TextBoxFor(model => model.EMAIL, new { @id = "email", @class = "info_name", @placeholder = "Email Address", @required = "required", @value = "" })
+                                    <p class="error" id="email-error"></p>
+                                </li>
+                                <li class="info_list">
+                                    @Html.PasswordFor(model => model.MATKHAU, new { @id = "password", @class = "info_name", @placeholder = "Password", @required = "required", @value = "" })
+                                    <img src="~/assetsDN_DK/img/blindsvg.svg" alt="" class="password-blind">
+                                    <p class="error" id="password-error"></p>
+                                </li>
+
+                            </ul>
+
+                            if (@ViewBag.PasswordIncorrect != null && (bool)ViewBag.PasswordIncorrect)
+                            {
+                                <p style="color: red;">Mật khẩu không đúng. Vui lòng thử lại.</p>
+                            }
+                            <a href="#" class="create-wrapper">
+                                <input type="submit" class="content_action-create" onclick="validateForm()" value="login Account" />
+                            </a>
+                            <p class="content_have-account">
+                                Don't have an account? <a href="@Url.Action("DangKy","User")">Sign up</a>
+                            </p>
+                        }
+
+
+
+                    </div>
+                </div>
+                <div class="content_sup">
+
+                    <img src="~/assetsDN_DK/img/Abstraction.png" alt="" class="content_img">
+
+                </div>
+            </id>
+        </div>
+
+    </id>
+    <style>
+        .opacity_5 {
+            opacity: 0.5;
+        }
+
+        .opacity_1 {
+            opacity: 1;
+        }
+    </style>
+    <script>
+
+
+        var icon = document.querySelector('.password-blind');
+        var passlabel = document.getElementById('password');
+        var isPasswordVisible = false; // Trạng thái hiện tại
+
+        icon.addEventListener('click', function () {
+            // Đảo ngược trạng thái
+            isPasswordVisible = !isPasswordVisible;
+
+            // Thay đổi type của passlabel tùy thuộc vào trạng thái
+            passlabel.type = isPasswordVisible ? 'text' : 'password';
+
+            // Thay đổi opacity của icon tùy thuộc vào trạng thái
+            icon.classList.toggle('opacity_5', isPasswordVisible);
+            icon.classList.toggle('opacity_1', !isPasswordVisible);
+        });
+    </script>
+
+    <div id="google-button"></div>
+        <div class="container" style="display:none">
+            <img src="" alt="profile" class="img">
+            <div class="name"></div>
+            <br>
+            <lable>ID: </lable>
+            <div class="id"></div>
+            <br>
+            <lable>Email: </lable>
+            <div class="email"></div>
+            <button onClick="signOut()">Sign Out</button>
+        </div>
+    <script>
+        var googleButton = document.getElementById('google-button');
+        var container = document.getElementsByClassName('container')[0];
+        var img = document.getElementsByClassName('img')[0];
+        var getName = document.getElementsByClassName('name')[0];
+        var id = document.getElementsByClassName('id')[0];
+        var email = document.getElementsByClassName('email')[0];
+
+        // function to get response
+        function handleCredentialResponse(response) {
+            const responsePayload = decodeJwtResponse(response.credential);
+            img.src = responsePayload.picture;
+            getName.innerHTML = responsePayload.name;
+            id.innerHTML = responsePayload.sub;
+            email.innerHTML = responsePayload.email;
+            container.style.display = 'inline-block';
+            googleButton.style.display = 'none'
+        }
+
+        window.onload = function () {
+            google.accounts.id.initialize({
+                // replace your client id below
+                client_id: "343843909589-d7re2d6muq945af426ahrfla5p9bhdfe.apps.googleusercontent.com",
+                callback: handleCredentialResponse,
+                auto_select: true,
+                auto: true
+            });
+            google.accounts.id.renderButton(
+                document.getElementById("google-button"),
+                { theme: "filled_blue", size: "medium", width: '200' }  // customization attributes
+            );
+            // also display the One Tap dialog on right side
+            // important for auto login
+            google.accounts.id.prompt();
+        }
+
+        // function to decode the response.credential
+        function decodeJwtResponse(token) {
+            var base64Url = token.split('.')[1];
+            var base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            var jsonPayload = decodeURIComponent(atob(base64).split('').map(function (c) {
+                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+            }).join(''));
+            return JSON.parse(jsonPayload);
+        }
+
+        function signOut() {
+            google.accounts.id.disableAutoSelect();
+            // do anything on logout
+            location.reload();
+        }
+    </script>
+    <script>
+        function handleCredentialResponse(response) {
+            const responsePayload = decodeJwtResponse(response.credential);
+            img.src = responsePayload.picture;
+            getName.innerHTML = responsePayload.name;
+            id.innerHTML = responsePayload.sub;
+            email.innerHTML = responsePayload.email;
+            container.style.display = 'inline-block';
+            googleButton.style.display = 'none';
+
+            // Gửi thông tin người dùng về máy chủ
+            saveUserInfoToServer(responsePayload.name, responsePayload.email);
+        }
+
+        function saveUserInfoToServer(name, email) {
+            // Sử dụng AJAX để gửi thông tin người dùng về máy chủ
+            $.ajax({
+                type: 'POST',
+                url: '/User/SaveGoogleUserInfo',  // Điều chỉnh đúng đường dẫn tới phương thức của bạn
+                data: { name: name, email: email },
+                success: function (data) {
+                    console.log('Success:', data);
+                    // Xử lý kết quả trả về từ máy chủ (thông báo thành công hoặc xử lý lỗi)
+                    window.location.href =' @Url.Action("Index", "Home")';
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                    // Xử lý lỗi khi gửi yêu cầu
+                }
+            });
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="~/assetsDN_DK/js/KTDN1.js"></script>
+</body>
+</html>

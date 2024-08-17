@@ -1,0 +1,140 @@
+﻿@model IEnumerable<Web_ban_giay.NHACUNGCAP>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh sách nhà cung cấp</h2>
+
+<p>
+    @Html.ActionLink("Create New", "themNCC")
+</p>
+@*<button type="button" id="GetNCC"> aaa</button>*@
+<table class="table NCC">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MANHACUNGCAP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TENNHACUNGCAP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIACHI)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL)
+        </th>
+        <th></th>
+    </tr>
+
+    @*@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TENNHACUNGCAP)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DIACHI)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SDT)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EMAIL)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.MANHACUNGCAP }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.MANHACUNGCAP }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.MANHACUNGCAP })
+                </td>
+            </tr>
+        }*@
+
+</table>
+<script  >
+    //$(document).ready(function () {
+    //    loadData();
+    //});
+    //function loadData() {
+    //    $.ajax({
+    //        type: "GET",
+    //        dataType:"Json",
+    //        url: "/Admin / NhaCungCap",
+    //        success: function (result) {
+    //            var html = '';
+    //            $.each(result, function (key, item) {
+    //                html += '<tr>';
+    //                html += '<td>' + item.MANHACUNGCAP + '</td>';
+    //                html += '<td>' + item.TENNHACUNGCAP + '</td>';
+    //                html += '<td>' + item.SDT + '</td>';
+    //                html += '<td>' + item.EMAIL + '</td>';
+    //            });
+    //            $('.NCC').html(html);
+    //        }
+    //}
+    //$(document).ready(function () {
+    //    loadData();
+    //});
+    //function loadData() {
+    //    $.ajax({
+    //        type: "GET",
+    //        url: "/api/NHACUNGCAP",
+    //        success: (responses) => {
+    //            for (var i = 0; i < responses.length; i++) {
+    //                const dong = responses[i];
+    //                const str = '<tr><td>' + dong.MANHACUNGCAP + '</td><td>' + dong.TENNHACUNGCAP + '</td><td>' + dong.DIACHI + '</td><td>' + dong.SDT + '</td><td>' + dong.EMAIL + '</td></tr>';
+    //                $('.NCC').append(str);
+    //            }
+    //        }
+    //    });
+    //}
+
+
+    $(document).ready(function () {
+        loadData();
+    });
+
+    function loadData() {
+        $('.NCC tbody').empty();
+        $.ajax({
+            type: "GET",
+            url: "/api/NHACUNGCAP",
+            success: (responses) => {
+                for (var i = 0; i < responses.length; i++) {
+                    const dong = responses[i];
+                    const str = '<tr><td>' + dong.MANHACUNGCAP + '</td><td>' + dong.TENNHACUNGCAP + '</td><td>' + dong.DIACHI + '</td><td>' + dong.SDT + '</td><td>' + dong.EMAIL + '</td>' +
+                        '<td><button class="btnDelete" data-id="' + dong.MANHACUNGCAP + '">Xóa</button></td></tr>';
+                    $('.NCC tbody').append(str);
+                }
+
+                // Thêm sự kiện click cho nút xóa
+                $('.btnDelete').click(function () {
+                    var nhacungcapId = $(this).data('id');
+                    deleteData(nhacungcapId);
+                });
+            }
+        });
+    }
+
+    function deleteData(nhacungcapId) {
+        $.ajax({
+            type: "DELETE",
+            url: "/api/NHACUNGCAP/" + nhacungcapId,
+            success: function () {
+                // Xóa hàng tương ứng từ bảng
+                $('tr[data-id="' + nhacungcapId + '"]').remove();
+                loadData();
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+</script>
+
+
+

@@ -1,0 +1,84 @@
+﻿@model X.PagedList.PagedList<Web_ban_giay.SANPHAM>
+@using X.PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div style="padding:50px">
+
+<h2>Danh sách sản phẩm</h2>
+
+@using (Html.BeginForm("Index", "HomeAdmin", FormMethod.Get))
+{
+    <div class="form-group">
+        Tên sản phẩm
+        <div class="col-md-10">
+            <input type="text" placeholder="Nhập tên sản phẩm" id="TenSP"  name="searchQuery" value="@ViewBag.SearchQuery" />
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            Mã sản phẩm
+        </th>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Mô tả sản phẩm
+        </th>
+        <th>
+            Giá sản phẩm
+        </th>
+        <th>
+            Số lương
+        </th>
+
+        <th>
+            Hình ảnh sản phẩm
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MASP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TENSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MOTASANPHAM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GIASP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SOLUONGTRONGKHO)
+            </td>
+
+            <td>
+                <img src=@Url.Content("~/assets/image/" +item.HINHANHSP.ToString()) alt="" width="100" height="100">
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "suaSP", new { @maSP = item.MASP }) |
+                @Html.ActionLink("Details", "chiTietSP", new { @maSP = item.MASP }) |
+                @Html.ActionLink("Delete", "xoaSP", new { @maSP = item.MASP })
+            </td>
+        </tr>
+    }
+
+</table>
+<div class="pagination-container">
+    @Html.PagedListPager(Model, Page => Url.Action("Index", "HomeAdmin", new { page = Page }), new PagedListRenderOptions
+{
+    LiElementClasses = new string[] { "page-item" },
+    PageClasses = new string[] { "page-link" },
+})
+</div>
+</div>

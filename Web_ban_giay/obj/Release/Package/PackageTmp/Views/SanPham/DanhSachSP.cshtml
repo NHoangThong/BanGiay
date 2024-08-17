@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Web_ban_giay.SANPHAM>
+
+
+<div class="grid">
+    <div class="grid_row">
+        <ul class="arrivals_list">
+            @foreach (var item in Model)
+            {
+          
+                <div class="grid__column-4">
+                    <a href="@Url.Action("CT_SanPham", new {@maSP=item.MASP })">
+
+                        <li class="arrivals_items">
+
+                            <img src=@Url.Content("~/assets/image/" +item.HINHANHSP.ToString()) alt="" class="items_shooes">
+
+                            <div class="shoes_info">
+                                <p class="info_name"> @Html.DisplayFor(modelItem => item.TENSP) </p>
+                                <p class="info_sub">Men’s shoes</p>
+                                <p class="info_price"> @Html.DisplayFor(modelItem => item.GIASP)</p>
+                            </div>
+                        </li>
+                    </a>
+                </div>
+            }
+
+    
+        </ul>
+    </div>
+</div>

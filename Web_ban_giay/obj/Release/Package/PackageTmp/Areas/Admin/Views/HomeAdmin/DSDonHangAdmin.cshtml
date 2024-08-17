@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Web_ban_giay.DONHANG>
+
+@{
+    ViewBag.Title = "DSDonHangAdmin";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh Sách Đơn Hàng</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Mã đơn hàng
+        </th>
+        <th>
+            Mã người dùng
+        </th>
+        <th>
+            Tên người dùng
+        </th>
+        <th>
+            Ngày đặt hàng
+        </th>
+        <th>
+            Tổng tiền
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MADH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MANGUOIDUNG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NGUOIDUNG.TENNGUOIDUNG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NGAYDATHANG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TONGTIEN)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "suaDH", new { @maDH = item.MADH }) |
+            @Html.ActionLink("Delete", "xoaDH", new { @maDH = item.MADH })
+        </td>
+    </tr>
+}
+
+</table>

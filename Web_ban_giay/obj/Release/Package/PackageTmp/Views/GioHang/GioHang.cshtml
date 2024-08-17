@@ -1,0 +1,191 @@
+﻿@model IEnumerable<Web_ban_giay.Models.GioHang>
+@{ var u = Session["use"] as Web_ban_giay.NGUOIDUNG;}
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_LayoutChung.cshtml";
+}
+
+
+
+<br />
+<br />
+<table class="table-hover table-bordered divGioHang">
+    <tr>
+        <th>
+            Mã sản phẩm
+        </th>
+        <th>
+            Tên sản phẩm
+        </th>
+        <th>
+            Ảnh bìa
+        </th>
+        <th>
+            Đơn giá
+        </th>
+        <th>
+            Số lượng
+        </th>
+        <th>
+            Thành tiền
+        </th>
+
+    </tr>
+    
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSP)
+            </td>
+            <td>
+                <img src=@Url.Content("~/assets/image/" + item.AnhBia.ToString()) alt="" width="50" height="50">
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DonGia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThanhTien)
+            </td>
+
+        </tr>
+
+
+
+    }
+
+    <tr>
+        <td colspan="5" style="text-align:right">
+            @Html.ActionLink("Chỉnh sửa giỏ hàng", "suaGioHang")
+        </td>
+        <td>
+            Tổng tiền: @ViewBag.tongTien
+        </td>
+        <td>
+            @using (Html.BeginForm("datHang", "GioHang", new { @class = "" }))
+                {
+            <input type="submit" value="Đặt hàng" class="btn-danger" id="GioHang" />
+            }
+        </td>
+    </tr>
+</table>
+
+<style type="text/css">
+    .divGioHang {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        font-size: 16px;
+    }
+
+        .divGioHang th,
+        .divGioHang td {
+            padding: 12px;
+            border: 2px solid #ddd;
+            text-align: center;
+        }
+
+        .divGioHang th {
+            background-color: #f2f2f2;
+        }
+
+        .divGioHang img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .divGioHang td:last-child {
+            white-space: nowrap;
+        }
+
+        .divGioHang a {
+            text-decoration: none;
+            margin: 0 5px;
+            padding: 3px 8px;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+            .divGioHang a:hover {
+                background-color: #ddd;
+            }
+</style>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+@{
+    var jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(Model);
+}
+@{ 
+    DateTime currentDateTime = DateTime.Now;
+    DateTime FutureDate = currentDateTime.AddDays(3);
+    string currentDateTimeString = currentDateTime.ToString("yyyy-MM-dd HH:mm:ss");
+    string FutureDateString = FutureDate.ToString("yyyy-MM-dd");
+
+}
+
+<script>
+    var fireBase = "https://firebasestorage.googleapis.com/v0/b/ggsneaker-js.appspot.com/o/"
+    var gioHangData = @Html.Raw(jsonData);
+    var GioHangbutton = document.getElementById('GioHang');
+    var KhoAnh = ["nikeairforce1.jpg", "NikeAirMax.jpg", "NikeAirMax95.jpg", "NikeAirMaxPlus.jpg", "NikeAirMaxTW.jpg", "NikeZoomFly.jpg"]
+    var LinkAnh = [fireBase + "nikeairforce1.jpg?alt=media&token=78ffc15a-f473-4d1f-9b78-de124698cbe6", fireBase + "NikeAirMax.jpg?alt=media&token=554904a0-f3d3-48d1-a0b9-f66a8ad96af6", fireBase + "NikeAirMax95.jpg?alt=media&token=0520624e-e3d9-4692-afa8-d1572af4831e", fireBase + "NikeAirMaxPlus.jpg?alt=media&token=94c9b7f5-a3f4-4212-ac72-a14ec41634fb", fireBase + "NikeAirMaxTW.jpg?alt=media&token=ece464aa-092f-4845-b2eb-9c3cc5735fbc", fireBase + "NikeZoomFly.jpg?alt=media&token=7930788e-06f5-4f67-afc3-8b2eae6c0dac"];
+    var Thankyou = "<img src='https://firebasestorage.googleapis.com/v0/b/ggsneaker-js.appspot.com/o/thankyou.png?alt=media&token=76c7ecd4-434a-4952-b5f8-3a5d1ae69967' width='500' height='500'>"
+    var HeaderEmail = "<p> Xin chào @u.EMAIL,</p>\n" +
+                     "<p>Cám ơn bạn đã đặt hàng tại BestSneaker</p>\n" +
+                     "<p>Ngày đặt hàng: @currentDateTimeString </p>\n" +
+                     "<p>Ngày nhận dự kiến: @FutureDateString </p>\n" +
+                     "<p>Dưới đây là thông tin đơn hàng của bạn:</p>";
+    var tableHtml = "<table style='border-collapse: collapse; width: 100%; border: 1px solid #ddd;'>" +
+                    "<tr>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Hình Ảnh</th>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Tên sản phẩm</th>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Mã sản phẩm</th>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Đơn giá</th>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Số lượng</th>" +
+                        "<th style='border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f2f2f2;'>Thành tiền</th>" +
+                    "</tr>";
+
+for (var i = 0; i < gioHangData.length; i++) {
+    tableHtml += "<tr>";
+    for (var j = 0; j < KhoAnh.length; j++) {
+        if (gioHangData[i].AnhBia == KhoAnh[j]) {
+            tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'><img src='" + LinkAnh[j] + "' width='200' height='250'></td>";
+        }
+    }
+    tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'>" + gioHangData[i].TenSP + "</td>";
+    tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'>" + gioHangData[i].MaSP + "</td>";
+    tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'>" + gioHangData[i].DonGia + "VND</td>";
+    tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'>" + gioHangData[i].SoLuong + "</td>";
+    tableHtml += "<td style='border: 1px solid #ddd; padding: 8px; text-align: left;'>" + gioHangData[i].ThanhTien + "VND</td>";
+    tableHtml += "</tr>";
+}
+    tableHtml += "<tr><td><h4 style='margin-top: 20px;'>Tổng hóa đơn thanh toán: " + @ViewBag.tongTien + "VND</h4></td></tr>";
+tableHtml += "</table>";
+
+
+
+
+    GioHangbutton.addEventListener('click', function () {
+
+
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: "phantruc438@gmail.com",
+            Password: "BB2961AD3C5B25ECA5247BCCDDA73941978A",
+            To: "@u.EMAIL",
+            From: "bestsneakervn@gmail.com",
+            Subject: "Hóa đơn giày Sneaker",
+            Body: HeaderEmail + tableHtml + Thankyou
+        }).then(
+            message => alert(message)
+        );
+    })
+</script>
+

@@ -1,0 +1,72 @@
+﻿@model Web_ban_giay.SANPHAM
+
+@{
+    ViewBag.Title = "chiTietSP";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Chi Tiết Sản Phẩm</h2>
+
+<div>
+
+    <hr />
+    <div style="display:flex; margin-left:100px;">
+        <img style="width:30%; height: 100%; margin-right:100px;" src=@Url.Content("~/assets/image/" + Model.HINHANHSP.ToString()) alt="" width="100" height="100">
+
+        <dl class="dl-horizontal" style="width:50%">
+            <dt>
+                Mã sản phẩm
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MASP)
+            </dd>
+
+            <dt>
+                Tên sản phẩm
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.TENSP)
+            </dd>
+
+            <dt>
+                Mô tả sản phẩm
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MOTASANPHAM)
+            </dd>
+
+            <dt>
+                Giá sản phẩm
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.GIASP)
+            </dd>
+
+            <dt>
+                Số lượng
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.SOLUONGTRONGKHO)
+            </dd>
+
+            <dt>
+                Mã nhà cung cấp
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.MANHACUNGCAP)
+            </dd>
+        </dl>
+
+    </div>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

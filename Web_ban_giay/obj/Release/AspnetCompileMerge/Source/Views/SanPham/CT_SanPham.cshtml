@@ -1,0 +1,121 @@
+﻿@model Web_ban_giay.SANPHAM
+
+@{
+    ViewBag.Title = "CT_SanPham";
+    Layout = "~/Views/Shared/_LayoutChung.cshtml";
+}
+
+<div class="between"></div>
+<div id="product_content">
+    <div class="product">
+        <img src=@Url.Content("~/assets/image/" +@Model.HINHANHSP.ToString()) alt="" class="product_img">
+        <div class="product_info">
+            <p class="product_category">Men's Shoes</p>
+            <h2 class="product_name">@Model.TENSP</h2>
+            <p class="product_price" style="font-weight: bold;">@Model.GIASP</p>
+            <p class="product_sub">New signature release for NBA player Zion Williamson, as he gets his first collaboration on a sneaker.</p>
+            <p class="product_sub-2">The Air Jordan 1 Retro Low OG Zion Williamson Voodoo features a highly intricate design with a voodoo doll-inspired theme...</p>
+            <div class="size_wrapper">
+                <div class="size_border">
+                    <div class="product_size">
+                        <div value="4" class="size-box">4</div>
+                        <div value="4.5" class="size-box">4.5</div>
+                        <div value="5" class="size-box">5</div>
+                        <div value="5.5" class="size-box">5.5</div>
+                        <div value="6" class="size-box">6</div>
+                        <div value="6.5" class="size-box">6.5</div>
+                        <div value="7" class="size-box">7</div>
+                    </div>
+                    <div class="product_size">
+                        <div value="7.5" class="size-box">7.5</div>
+                        <div value="8" class="size-box">8</div>
+                        <div value="8.5" class="size-box">8.5</div>
+                        <div value="9" class="size-box">9</div>
+                        <div value="9.5" class="size-box">9.5</div>
+                        <div value="10" class="size-box">10</div>
+                        <div value="10.5" class="size-box">10.5</div>
+                    </div>
+                    <div class="product_size">
+                        <div value="11" class="size-box">11</div>
+                        <div value="11.5" class="size-box">11.5</div>
+                        <div value="12" class="size-box">12</div>
+                        <div value="13" class="size-box">13</div>
+                        <div value="14" class="size-box">14</div>
+                        <div value="15" class="size-box">15</div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                        // Lấy tất cả các phần tử có class 'size-box'
+                        let boxes = document.querySelectorAll('.size-box');
+
+                        // Lặp qua từng phần tử
+                        boxes.forEach(function (box) {
+                            // Thêm sự kiện click vào mỗi phần tử
+                            box.addEventListener('click', function () {
+                                // Loại bỏ class 'selected' khỏi tất cả các phần tử
+                                boxes.forEach(function (otherBox) {
+                                    otherBox.classList.remove('selected');
+                                });
+
+                                // Thêm class 'selected' vào phần tử được nhấp
+                                box.classList.add('selected');
+                            });
+                        });
+            </script>
+            <div class="info_add">
+                @using (Html.BeginForm("themGioHang", "GioHang", new { @maSP = Model.MASP, @strURL = Request.Url.ToString() }, FormMethod.Post))
+                {
+                    <select id="quanlity" name="quantity">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <br />
+                    <input type="submit" id="add-to-cart" class="add-cart" value="ADD TO CART" />
+                }
+
+
+            </div>
+
+        </div>
+    </div>
+    <div id="new_arrivals">
+        <div class="arrivals_header">
+            <div class="header_container">
+                <h1 class="header_text" style="margin-bottom: 0;">YOU ALSO MAY LIKE</h1>
+                <div class="narrow">
+                    <button class="narrow_nav" style="margin-right: 10px; border: none; background-color: white; cursor: pointer;">
+                        <img src="~/assets/image/arrow_nav.svg" alt="arrow">
+                    </button>
+                    <button class="narrow_nav-right" style="border: none; background-color: white; cursor: pointer;">
+                        <img src="~/assets/image/arrow_nav.svg" alt="arrow" style="transform: rotate(180deg);">
+                    </button>
+                </div>
+            </div>
+
+            <!-- <a href="" class="header_all-items">See all items</a> -->
+        </div>
+        <!-- items -->
+        <div class="arrivals_container">
+            @Html.Action("DanhSachSP", "SanPham")
+           
+        </div>
+
+    </div>
+</div>
+<script>
+    var cartButton = document.getElementById("add-to-cart");
+    cartButton.addEventListener('click', function () {
+        alert("Thêm vào giỏ hàng thành công!");
+    });
+</script>
+
+

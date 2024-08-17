@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="efb41cda76a1443089b4ed647d404954" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.CHITIETDONHANG" Width="1.5" PointX="7.625" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.DONHANG" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.NHACUNGCAP" Width="1.5" PointX="3.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.SANPHAM" Width="1.5" PointX="6.125" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="QL_BAN_GIAY_THETHEOModel.FK__CHITIETDON__MADH__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BAN_GIAY_THETHEOModel.FK__CHITIETDON__MASP__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="QL_BAN_GIAY_THETHEOModel.FK__SANPHAM__MANHACU__571DF1D5" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.NGUOIDUNG" Width="1.5" PointX="3.375" PointY="3.5" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.PHANQUYEN" Width="1.5" PointX="0.5" PointY="2.625" />
+        <EntityTypeShape EntityType="QL_BAN_GIAY_THETHEOModel.sysdiagram" Width="1.5" PointX="8.5" PointY="4.875" />
+        <AssociationConnector Association="QL_BAN_GIAY_THETHEOModel.FK__DONHANG__MANGUOI__534D60F1" />
+        <AssociationConnector Association="QL_BAN_GIAY_THETHEOModel.FK__NGUOIDUNG__MAQUY__5441852A" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

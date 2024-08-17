@@ -1,0 +1,154 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutChung.cshtml";
+}
+<div class="between"></div>
+<div id="slide">
+    <!-- <div class="slide_title">
+        <h1 class="title_text">RETRO LOW</h1>
+
+            <h1 class="title_span">
+                VOODOO
+            </h1>
+            <div class="img_wrapper">
+                <img src="/assets/image/Limited Edition Circle.png" alt="" class="mark">
+                <img src="~/assets/image/Image Shoes.png" alt="" class="sneaker">
+                <img src="~/assets/image/shoes-mobile.png" alt="" class="sneaker mobile">
+
+            </div>
+        <p class="sub_text">The Nike Dunk Low SE Jackpot GS is a low-cut
+            sneaker with hints of grey, white, blue, and red.</p>
+            <a href="">
+                <div class="action">
+                <h2 class="action_text">SHOP NOW!</h2>
+                </div>
+            </a>
+        </div> -->
+    
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="" class="img_link" style="width: 100%;">
+                    <img src="./assets/image/banner1.png" class="slide_img">
+                    <img src="./assets/image/banner2.png" class="slide_img">
+                    <img src="./assets/image/banner3.png" class="slide_img">
+                    <img src="./assets/image/TopMobile.png" style="width: 100%;" class="slide_img-mobile">
+                </a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+</div>
+<div id="content">
+    <!-- NEW arrivals -->
+    <div id="new_arrivals">
+        <div class="arrivals_header">
+            <div class="header_container">
+                <h1 class="header_text" style="margin-bottom: 0;">NEW ARRIVALS</h1>
+                <div class="narrow">
+                    <button class="narrow_nav" style="margin-right: 10px; border: none; background-color: white; cursor: pointer;">
+                        <img src="~/assets/image/arrow_nav.svg" alt="arrow">
+                    </button>
+                    <button class="narrow_nav-right" style="border: none; background-color: white; cursor: pointer;">
+                        <img src="~/assets/image/arrow_nav.svg" alt="arrow" style="transform: rotate(180deg);">
+                    </button>
+                </div>
+            </div>
+
+            <a href="@Url.Action("AllSP","SanPham")" class="header_all-items">See all items</a>
+        </div>
+        <!-- items -->
+        <div class="arrivals_container">
+            @Html.Action("DanhSachSP", "SanPham")
+           
+        </div>
+
+    </div>
+    <div id="collection">
+        <h1 class="header_text">SHOP BY COLLECTION</h1>
+        <div class="collection_img">
+            <a href="" class="collection_link-img">
+                <img src="~/assets/image/womens.png" alt="" class="womens">
+                <div class="img_sub">
+                    <h3 class="img_text">WOMENS</h3>
+                </div>
+            </a>
+            <a href="" class="collection_link-img">
+                <img src="~/assets/image/mens.png" alt="" class="womens">
+                <div class="img_sub">
+                    <h3 class="img_text">MENS</h3>
+                </div>
+            </a>
+            <a href="" class="collection_link-img">
+                <img src="~/assets/image/kids.png" alt="" class="womens">
+                <div class="img_sub">
+                    <h3 class="img_text">KIDS</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="new_collection">
+        <h1 class="header_text">OUR NEW COLLECTION</h1>
+        <div class="grid__row">
+            <div class="grid__column-2">
+                <a href="https://www.nike.com/vn/t/space-jam-a-new-legacy-basketball-t-shirt-WHvV4h" target="_blank" class="news_link">
+                    <img src="~/assets/image/aNewLegacy.png" alt="" class="news_img">
+                    <h3 class="news_title">NIKE X SPACE JAME : A NEW LEGACY</h3>
+                    <p class="news_sub">To celebrate the release of Space Jam: A New Legacy, Nike and Converse have joined forces to create an apparel and footwear collection worthy of Bugs Bunny and LeBron.</p>
+                </a>
+            </div>
+            <div class="grid__column-2">
+                <a href="https://www.complex.com/sneakers/a/riley-jones/nike-black-history-month-2022-collection" target="_blank">
+                    <img src="~/assets/image/NikeBlackHistoryMonth.png" alt="" class="news_img">
+                    <h3 class="news_title">Nike Black History Month</h3>
+                    <p class="news_sub">Nike is celebrating Black History Month with a new collection highlighted by customizable Air Force 1 sneakers.</p>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="shop_sport">
+        <div class="header_container">
+            <h3 class="header_text">SHOP BY SPORT</h3>
+            <div class="narrow">
+
+                <a href="" class="narrow_nav" style="margin-right: 10px;">
+                    <img src="~/assets/image/arrow_nav.svg" alt="arrow">
+                </a>
+                <a href="" class="narrow_nav">
+                    <img src="~/assets/image/arrow_nav.svg" alt="arrow" style="transform: rotate(180deg);">
+                </a>
+            </div>
+        </div>
+        <div class="grid__row">
+            <div class="grid__column-3">
+                <a href="" class="sprot_link">
+                    <img src="~/assets/image/sport 1.png" alt="" class="sport_img">
+                    <h3 class="sport_title">FOOTBALL</h3>
+                    <p class="sport_sub">1904 items</p>
+                </a>
+            </div>
+            <div class="grid__column-3">
+                <a href="" class="sprot_link">
+                    <img src="~/assets/image/sport 2.png" alt="" class="sport_img">
+                    <h3 class="sport_title">BASKETBALL</h3>
+                    <p class="sport_sub">1106 items</p>
+                </a>
+            </div>
+            <div class="grid__column-3">
+                <a href="" class="sprot_link">
+                    <img src="~/assets/image/sport 3.png" alt="" class="sport_img">
+                    <h3 class="sport_title">TENIS</h3>
+                    <p class="sport_sub">1629 items</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

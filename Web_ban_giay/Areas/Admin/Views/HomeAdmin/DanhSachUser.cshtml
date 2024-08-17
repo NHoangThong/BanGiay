@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Web_ban_giay.NGUOIDUNG>
+
+@{
+    ViewBag.Title = "DanhSachUser";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Danh Sách User</h2>
+
+<table class="table">
+    <tr>
+        <th>
+           Tên người dùng
+        </th>
+        <th>
+            Số điện thoại
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Mật khẩu
+        </th>
+        <th>
+            Tên quyền
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TENNGUOIDUNG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MATKHAU)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PHANQUYEN.TENQUYEN)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "suaUS", new { @maUS = item.MANGUOIDUNG }) |
+            @Html.ActionLink("Delete", "xoaUS", new { @maUS = item.MANGUOIDUNG }) 
+         
+        </td>
+    </tr>
+}
+
+</table>

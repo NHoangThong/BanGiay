@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Web_ban_giay.SANPHAM>
+
+@{
+    ViewBag.Title = "AllSP";
+    Layout = "~/Views/Shared/_LayoutChung.cshtml";
+}
+
+<style>
+    .allPD-img{
+        width: 300px;
+        height: 320px;
+    }
+    .allPD-info h4{
+        font-size:20px;
+        margin:0;
+    }
+    .allPD-info p{
+        font-size:18px;
+
+    }
+</style>
+<<div style="display: flex; flex-wrap: wrap; padding: 100px;">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("CT_SanPham", new {@maSP=item.MASP })" style="flex: 1 0 25%; padding-left: 12px; padding-right: 12px; box-sizing: border-box; text-decoration: none;margin-bottom: 100px;">
+            <img src="@Url.Content("/assets/image/" + item.HINHANHSP.ToString())" class="allPD-img" />
+            <div class="allPD-info">
+                <h4>@Html.DisplayFor(modelItem => item.TENSP)</h4>
+                <p>@Html.DisplayFor(modelItem => item.MOTASANPHAM)</p>
+                <p>@Html.DisplayFor(modelItem => item.GIASP) <span>VND</span></p>
+            </div>
+        </a>
+    }
+</div>
+
+
+</div>
+
+
+
+
+
+

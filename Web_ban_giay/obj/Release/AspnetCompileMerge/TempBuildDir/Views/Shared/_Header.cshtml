@@ -1,0 +1,77 @@
+﻿@{ var u = Session["use"] as Web_ban_giay.NGUOIDUNG;}
+<div id="header">
+    <a href="@Url.Action("Index","Home")" class="header_logo">
+        <img src="~/assets/image/nikelogo.png" alt="" class="header_logo-nike">
+    </a>
+
+    <div class="header_nav">
+        <ul class="nav_list">
+            <li class="nav_items"><a href="#new_arrivals">New arrivals</a></li>
+            <li class="nav_items"><a href="#collection">Men</a></li>
+            <li class="nav_items"><a href="#collection">Women</a></li>
+            <li class="nav_items"><a href="#collection">Kids</a></li>
+            <li class="nav_items"><a href="@Url.Action("DS_DonHang","DonHang")">Danh sách đơn hàng</a></li>
+        </ul>
+    </div>
+    <div class="header_utility">
+        <ul class="header_utility-list">
+            <a href="">
+                <li class="utility_items">
+                    <img class="utility_icon" src="~/assets/font/search.svg" alt="">
+                </li>
+            </a>
+            @{
+                if (u != null)
+                {
+                    <li class="utility_items utility_favorite">
+                        <div>
+                            <p> Xin chào : @u.EMAIL</p>
+                            &nbsp;
+
+                            <a style="color:red" href="@Url.Action("DangXuat","User")"> ĐĂNG XUẤT</a>
+                        </div>
+                    </li>
+                    
+                }
+                else
+                {
+                    <a href="@Url.Action("DangNhap","User")">
+                        <li class="utility_items utility_favorite">
+                            <img class="utility_icon" src="~/assets/font/user.png" alt="">
+                        </li>
+                    </a>
+                }
+            }
+
+            <a href="@Url.Action("GioHang","GioHang")">
+                <li class="utility_items">
+                    <img class="utility_icon" src="~/assets/font/bag.svg" alt=""> (@Html.Action("soLuongGH", "GioHang", new { }))
+                </li>
+            </a>
+      
+
+            <li class="utility_items utility_mobile">
+                <label style="display: inline-flex;" for="withlabel">
+                    <img class="utility_icon" src="~/assets/image/Cart.svg" alt="">
+                </label>
+                <input type="checkbox" id="withlabel">
+
+                <div class="header_nav mobile header_nav-mobile">
+                    <ul class="nav_list nav_list-mobile">
+                        <li class="nav_items nav_items-mobile"><a href="#new_arrivals">New arrivals</a></li>
+                        <li class="nav_items nav_items-mobile"><a href="#collection">Men</a></li>
+                        <li class="nav_items nav_items-mobile"><a href="#collection">Women</a></li>
+                        <li class="nav_items nav_items-mobile"><a href="#collection">Kids</a></li>
+                        <li class="nav_items nav_items-mobile"><a href="#new_collection">Collection</a></li>
+                    </ul>
+                </div>
+
+
+            </li>
+
+
+        </ul>
+
+
+    </div>
+</div>

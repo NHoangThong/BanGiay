@@ -1,0 +1,106 @@
+﻿@model Web_ban_giay.NHACUNGCAP
+
+@{
+  
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thêm nhà cung cấp</h2>
+
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { id = "myForm" })) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+       
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+           
+            Mã nhà cung cấp
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MANHACUNGCAP, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MANHACUNGCAP, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Tên nhà cung cấp
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TENNHACUNGCAP, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.TENNHACUNGCAP, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Địa chỉ
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DIACHI, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DIACHI, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Số điện thoại
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SDT, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SDT, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Email
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EMAIL, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.EMAIL, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        // Bắt sự kiện submit của form
+        $('#myForm').submit(function (e) {
+            // Ngăn chặn hành động mặc định của form (tải lại trang)
+            e.preventDefault();
+
+            // Lấy dữ liệu từ form
+            var formData = $(this).serialize();
+
+            // Gửi dữ liệu lên server sử dụng AJAX
+            $.ajax({
+                url: '/api/NHACUNGCAP',  // Đổi đường dẫn thành đúng URL của action của bạn
+                type: 'POST',
+                data: formData,
+                success: function (result) {
+                    // Xử lý kết quả thành công nếu cần
+                    console.log(result);
+                    alert('Thêm thành công!');
+                    window.location.href = '/Admin/NhaCungCap/Index';
+                    // Đặt lại form
+                    //$('#myForm')[0].reset();
+                },
+                error: function (error) {
+                    // Xử lý lỗi nếu có
+                    console.log(error);
+                }
+            });
+        });
+    });
+</script>

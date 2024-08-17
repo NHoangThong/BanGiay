@@ -1,0 +1,499 @@
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+C:\Users\phant\Downloads\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+C:\Users\HP\Desktop\DoAn_LTW\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+D:\Studio Code\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+C:\Users\HP\Desktop\DoAn_LTW\FILEMOI\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+D:\CODE\LTWEB\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+C:\Users\HP\Desktop\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll.config
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Web_ban_giay.pdb
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.exe.config
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\csc.rsp
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.exe
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\csi.rsp
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.AppContext.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Collections.Immutable.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\System.Reflection.Metadata.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.exe.config
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\vbc.rsp
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\roslyn\VBCSCompiler.exe.config
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\EntityFramework.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Microsoft.Web.Infrastructure.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Buffers.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Memory.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\X.PagedList.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\X.PagedList.Mvc.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\EntityFramework.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\EntityFramework.SqlServer.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.pdb
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Newtonsoft.Json.Bson.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Buffers.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Memory.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Net.Http.Formatting.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Threading.Tasks.Extensions.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Http.WebHost.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Razor.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Deployment.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Webpages.Razor.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Helpers.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\System.Web.Mvc.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\CODE\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csprojAssemblyReference.cache
+D:\CODE\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CoreCompileInputs.cache
+D:\CODE\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.csproj.CopyComplete
+D:\CODE\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.dll
+D:\CODE\Web_ban_giay\Web_ban_giay\obj\Debug\Web_ban_giay.pdb
